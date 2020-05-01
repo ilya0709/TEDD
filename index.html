@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="main__inner">
+            <div class="main__block habitat">
+                <div class="container">
+                    <div class="habitat__inner">
+                        <h1>Среда</h1>
+                        <p>
+                            σ = 
+                            <input type="text" name="" id="sigma" placeholder="1e-7 = 1*10^-7">
+                            </p>
+                                
+                            <p>
+                            εr =
+                            <input type="text" name="" id="er" placeholder="5e7 = 5*10^7">
+                            </p>
+                        
+                            <p>
+                            f =
+                            <input type="text" name="" id="fr" placeholder="1e-7 = 1*10^-7">
+                            </p>
+                            
+                            <button id="getProp" class="habitat-start">Calculate</button>
+
+                            <div class="result">
+                                
+                            </div>
+                            
+                    </div>
+                </div>
+            </div> 
+
+
+            <div class="main__block resistance">
+                <div class="container">
+                    <div class="habitat__inner">
+                        <h1>Характеристическое сопротивление <br> ( сигма == 0)</h1>
+                        <p>
+                            σ = 
+                            <input type="text" name="" id="sigma1" placeholder="1e-7 = 1*10^-7">
+                            </p>
+                                
+                            <p>
+                            εr =
+                            <input type="text" name="" id="er1" placeholder="1e-7 = 1*10^-7">
+                            </p>
+                        
+                            <p>
+                            f =
+                            <input type="text" name="" id="fr1" placeholder="1e-7 = 1*10^-7">
+                            </p>
+                            
+                            <button id="getProp1" class="resistance-start">Calculate</button>
+
+                            <div class="result1">
+                            
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="main__block speed">
+                <div class="container">
+                    <div class="habitat__inner">
+                        <h1>Фазовая скорость</h1>
+                        <p>
+                            σ = 
+                            <input type="text" name="" id="sigma2" placeholder="1e-7 = 1*10^-7">
+                            </p>
+                                
+                            <p>
+                            εr =
+                            <input type="text" name="" id="er2" placeholder="1e-7 = 1*10^-7">
+                            </p>
+                        
+                            <p>
+                            f =
+                            <input type="text" name="" id="fr2" placeholder="1e-7 = 1*10^-7">
+                            </p>
+                            
+                            <button id="getProp2" class="speed-start">Calculate</button>
+
+                            <div class="result2">
+                                <!-- Result:  -->
+                            </div>
+                            
+                    </div>
+                </div>
+            </div>
+
+            <div class="main__block deep">
+                <div class="container">
+                    <div class="habitat__inner">
+                        <h1>Глубина</h1>
+                        <p>
+                            σ = 
+                            <input type="text" name="" id="sigma3" placeholder="1e-7 = 1*10^-7">
+                            </p>
+                                
+                            <p>
+                            εr =
+                            <input type="text" name="" id="er3" placeholder="1e-7 = 1*10^-7">
+                            </p>
+                        
+                            <p>
+                            f =
+                            <input type="text" name="" id="fr3" placeholder="1e-7 = 1*10^-7">
+                            </p>
+                            
+                            <button id="getProp3" class="deep-start">Calculate</button>
+
+                            <div class="result3">
+                                <!-- Result:  -->
+                            </div>
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
